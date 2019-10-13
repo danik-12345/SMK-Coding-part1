@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="10dp"
+        android:
+        android:contentDescription="@string/image"
+        android:src="@drawable/bakground" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/image"
+      android:orientation="horizontal">
+
+<TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/white"
+      android:text="Nama: "
+      android:textSize="24sp"/>
+
+      <EditText
+          android:id="@+id/edt_nama"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="25dp"
+          android:layout_marginEnd="25dp"
+          android:padding="25dp"
+          android:text="Danik Safitri"
+          android:textColor="@android:color/white"
+          android:textSize="14sp"
+          tools:ignore="Autofill,LabelFor,TextFields"
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:lay
+    </LinearLayout>
+  </RelativeLayout>
+
+</ScrollView>
